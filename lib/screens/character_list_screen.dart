@@ -64,9 +64,9 @@ class _CharacterListState extends State<CharacterList> {
   Widget build(BuildContext context) {
     return PagedGridView<int,dynamic>(
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 3,
-        mainAxisSpacing: 8.0,
-        crossAxisSpacing: 8.0
+        crossAxisCount: 2,
+        mainAxisSpacing: 10.0,
+        crossAxisSpacing: 10.0
       ),
       pagingController: _pagingController,
       builderDelegate: PagedChildBuilderDelegate(
