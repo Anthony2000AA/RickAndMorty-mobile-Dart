@@ -67,6 +67,8 @@ class _CharacterListState extends State<CharacterList> {
         crossAxisCount: 2,
         mainAxisSpacing: 10.0,
         crossAxisSpacing: 10.0
+
+        
       ),
       pagingController: _pagingController,
       builderDelegate: PagedChildBuilderDelegate(
